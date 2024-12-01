@@ -1,0 +1,18 @@
+.small{
+    height: 407px;
+    width: 271px;
+    position: absolute;
+}
+.big{
+border: 2px solid black;
+height: 407px;
+width: 542px;
+margin: 152px auto;
+
+}
+.outer{
+    background-color: rgb(243,234,227);
+}
+body{
+    background-color: rgb(240,240,240);
+}

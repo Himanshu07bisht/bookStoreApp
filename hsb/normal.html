@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* This ensures the body takes the full height of the viewport */
+            margin: 5px;
+            background-color: white; /* Initial background color */
+            transition: background-color 1s; /* Smooth transition for background color */
+        }
+        .circle {
+            height: 250px;
+            width: 250px;
+            border: 2px solid black;
+            transition-property: transform;
+            transition-duration: 10s;
+            background-image: url(images/akshat.jpg);
+            background-size: cover;
+            background-position-y: 563px;
+        }
+        .circle:hover {
+            transform: rotate(360deg) scale(2.0);
+        }
+        h3 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h3>Handsome Akshat</h3>
+    <div class="circle"></div>
+    <script>
+        const circle = document.querySelector('.circle');
+        const body = document.body;
+
+        circle.addEventListener('mouseenter', () => {
+            body.style.backgroundColor = 'blue';
+        });
+
+        circle.addEventListener('mouseleave', () => {
+            body.style.backgroundColor = 'white';
+        });
+    </script>
+</body>
+</html>

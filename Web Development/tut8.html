@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+
+</head>
+
+<body>
+    <h2> This is HTML Form Tutorial</h2>
+    <!-- form tag is used to create a form -->
+    <!-- form action means to provide a suitable backend -->
+    <form action="backend.php">
+        <!-- There are some tags in form which helps to create a form easily with the help of those tags...
+            So first tags is input tag that is used in which user gives some input -->
+        <!-- div tag is used to give provide a new line -->
+        <!-- Since we establised div tag in every single line -->
+        <!-- input tag is help to find the tag -->
+        <!-- input:submit tag is used to submit the the form -->
+        <!-- format document is used to correct the formet of file  -->
+        <!-- input:number is also tag -->
+        <!-- radio tag is used when we choose one from two...For eg male and female but in this we remind that both should be  the same -->
+        <!-- if we want to reach somethng from the top to bootom or vise versa then we press a alt key and scroll the down with the help of keyboard -->
+        <!-- reset tag is used to reset the the whole form -->
+        <!-- textarea is a tag in which we have take input to the user... -->
+        <!-- label tag is used jb hm kisi chiz me click krte ha aur bracket me click ho jata ha apne ap..
+        for me hm id ko dalenge and <> yaha pr inout type ke pahale jo tha usko enter krenge </> -->
+        <!-- select tag ka use hota ha jase ki hme jb form bharte ha to hm dekhte ha ki bhoot sare option aa rhe, jase ki agr hme country 
+        select krna ha to bhut sare country ke nmae aa jate ha -->
+        <!-- in the select tag we write three tags first is label, second one is select tag and third is option tag -->
+        <!-- agr hm pahale se hi kuch select krna chate ha to selected likhenge -->
+        <label for="name"> Name</label>
+        <div>
+            <input type="text" Name="myName" id="name">
+        </div>
+        <br>
+        <label for="HSB">Role</label>
+        <div>
+            <input type="text" name="myRole" id="HSB">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+        <br>
+        <br>
+        <div>
+            Date: <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Bonus: <input type="number" name="myBonus">
+        </div>
+        <br>
+        <div>
+            Are you eliible?:<input type="checkbox" name="myEligibility">
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender"> other <input
+                type="radio" name="myGender" id="">
+        </div>
+        <br>
+        <br>
+        <div>
+            Reset: <input type="reset" value="Reset Form" name="" myReset>
+        </div>
+        <br>
+        <div>
+            write about yourself:<textarea name="myText" cols="90" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="country">Country</label>
+            <select name="myCountry" id="country">
+                <option value="India" selected>India</option>
+                <option value="USA">USA</option>
+                <option value="Russia">Russia</option>
+            </select>
+            <div>
+                <br>
+                Submit:<input type="submit" value="Submit" name="mySubmit">
+            </div>
+            <br>
+
+
+
+
+    </form>
+
+</body>
+
+</html>

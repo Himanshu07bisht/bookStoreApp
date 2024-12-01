@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID</title>
+    <style>
+        .container {
+            background-color: lightgray;
+            width: 650px;
+            margin: 50px auto 0;
+            display: grid;
+            /* grid-template-columns: repeat(auto-fit, minmax(200px, 0.5fr)); */
+            grid-template-columns: repeat(2,1fr);
+
+            grid-template-rows: repeat(2, 150px);
+            /* grid-auto-rows: 80px; */
+            grid-gap: 10px;
+
+            
+        }
+
+        .items1 {
+            background-color: orangered;
+        }
+
+        .items2 {
+            background-color: yellowgreen;
+            display: grid;
+
+            
+        }
+
+        .items3 {
+            background-color: rgb(135, 209, 222);
+            /* grid-row: span 3; */
+            /* align-self: center;
+        justify-self: center; */
+            /* place-self: start end; */
+
+        }
+
+        .items4 {
+            background-color: pink;
+        }
+
+         /* .items5 {
+            background-color: rgb(135, 174, 222);
+        } */
+
+        /* .items6 {
+            background-color: orangered;
+            grid-column:  span 2;
+        } */
+
+         /* .items7 {
+            background-color: rgb(200, 255, 0);
+            grid-column: span 2;
+         }  */
+
+/* 
+        .items8 {
+            background-color: goldenrod; */
+        }  */
+    </style>
+</head>
+
+<body>
+    <h1>CSS Grid</h1>
+    <div class="container">
+        <div class="items items1">First</div>
+        <div class="items items2">Second
+            <div class="subitems1">A</div>
+            <div class="subitems2">B</div>
+            <div class="subitems3">C</div>
+        </div>
+        <div class="items items3">Third</div>
+        <div class="items items4">Fourth</div>
+        <!-- <div class="items items5">Fifth</div>
+        <div class="items items6">Six</div> -->
+</body>
+
+</html>

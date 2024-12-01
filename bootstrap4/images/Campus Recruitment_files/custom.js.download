@@ -1,0 +1,97 @@
+(function ($) {
+    "use strict";
+    
+    /*-------------------------------
+    Sticky Menu
+    ---------------------------------*/
+    var header = $('.menu-area');
+    var win = $(window);
+    // Window Scroll
+    win.on('scroll', function () {
+        var scroll = win.scrollTop();
+        if (scroll < 70) {
+            header.removeClass("sticky");
+        } else {
+            header.addClass("sticky");
+        }
+    });
+    /*-------------------------------
+    Smoth Scrolling
+    ---------------------------------*/
+    $('li.smooth-menu a').on("click", function (event) {
+        var $anchor = $(this);
+        var headerH = '70';
+        $('html,body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top - headerH + "px"
+        }, 1200, 'easeInOutExpo');
+        event.preventDefault();
+    });
+
+    /*-------------------------------
+    Slider Review
+    ---------------------------------*/
+    $('.review-wrap').owlCarousel({
+        dots: false,
+        loop: true,
+        nav: true,
+        navText: ['<i class="fa fa-long-arrow-left"></i>', '<i class="fa fa-long-arrow-right"></i>'],
+        autoplay: false,
+        margin: 0,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            1000: {
+                items: 2
+            }
+        }
+    });
+    
+    // Scroll Up
+    $.scrollUp({
+        scrollText: "<i class='fa fa-angle-up'></i>",
+        scrollDistance: 300,
+    });
+    /*-------------------------------
+    Popup Vedio
+    ---------------------------------*/
+    // 
+    $('.popup-vedio').magnificPopup({
+        type: 'iframe',
+        src: 'https://www.youtube.com/watch?v=JH0RMBG41y0',
+        preload: [0, 0],
+
+        gallery: {
+            enabled: false,
+        }
+    });
+    /*-------------------------------
+    Swiper Slider
+    ---------------------------------*/
+    var swiper = new Swiper('.swiper-container.one', {
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+            clickable: true,
+        },
+        autoplay: {
+            delay: 3000,
+        },
+        speed: 1000,
+        effect: 'coverflow',
+        loop: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflowEffect: {
+            rotate: 0,
+            stretch: 80,
+            depth: 200,
+            modifier: 1,
+            slideShadows: false,
+        }
+    });
+})(jQuery);

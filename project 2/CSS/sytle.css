@@ -1,0 +1,297 @@
+body
+{
+    margin:0;
+    padding: 0;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height: 100px;
+}
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    font-family: 'Baloo 2', sans-serif;
+top: 0px;
+}
+#navbar::before{
+    content: "";
+    background-color:  black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    top: 0px;
+    left: 0px;
+}
+/* Navigation bar: Logo and Image */
+#logo{
+    margin: 10px 5px;
+}
+
+#logo img{
+    height: 109px;
+    margin: -23px -2px
+}
+
+
+/* Navigation bar: List Styling */
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    /* List-style:none krne se bindu nhi ayega */
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    display: block;
+    /* text-decoration: none krne se underline ht jati ha */
+    text-decoration: none;
+    border-radius: 100px;
+    padding: 3px 22px;
+    color: white;
+}
+#navbar ul li a:hover{
+    color:black;
+    background: white;
+}
+/* #logo img:hover{
+    color: black;
+background-color: white;
+} */
+
+/* Home section */
+#home{
+        display: flex;
+        flex-direction: column;
+        padding: 87px 150px;
+        justify-content: center;
+        align-items: center;
+    height: 17px;
+    margin-top: 65px;
+
+}
+#home::before{
+    content: "";
+    background: url('../1000_F_187573358_rIkruVJ7wUCA8FYxonKMkLOK0WaE9bQq.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 68%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+    top: 0px;
+    left: 0px;
+}
+/* Utility classes */
+.h-primary{
+    padding: 10px;
+    margin: 89px 37px;
+    font-size: 3rem;
+
+}
+/* .h-primary p{
+    margin: 15px 15px; */
+/* } */
+.h-secondary{
+    font-size: 1.8rem;
+    padding: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 0.99rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 15px 15px;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+color: white;
+margin: 17px;
+font-size: 1.5rem;
+border-radius: 10px;
+cursor: pointer;
+}
+
+.center{
+    text-align: center;
+}
+
+ /* Services Center     */
+ #services{
+    margin: 5px;
+    display: flex;
+ }
+ #services .box{
+    border: 2px solid brown;
+    margin: -139px 42px;
+        padding: 13px;
+        border-radius: 23px;
+        background-color: #e2e4e2;
+    
+ }
+ #services .box img{
+    height: 148px;
+    margin: auto;
+    display: block;
+    width: 300px;
+
+ } 
+ .h-primary1{
+    margin: 139px;
+    font-size: 3rem;
+    font-family: 'Baloo 2', sans-serif;
+    height: 92px;
+ }
+ #services .box p{
+    /* font-family: 'Baloo 2', sans-serif; */
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: "Basis Grotesque Pro"; */
+ }
+ #client-section{
+height: 344px;
+/* display: flex;
+align-items: center;
+justify-content: center; */
+ }
+ #clients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ /* .client-item  {
+    padding: 34px;
+} */
+.him{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 180px 105px;
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 3rem;
+}
+
+/* Isme Sikhna ha kuch properties */
+.client-item img{
+    height: 124px;
+    /* margin:120px 10px;
+    margin: -60px 10px;
+    padding: -52px; */
+    width: auto;
+    position: absolute;
+    top: 163%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+
+}
+.client-item2 img{
+    height: 124px;
+    width: auto;
+    position: absolute;
+    top: 163%;
+    left: 36%;
+    transform: translate(-50%, -50%); 
+}
+.client-item3 img{
+    height: 95px;
+    width: auto;
+    position: absolute;
+    top: 163%;
+    right: 512px;
+    transform: translate(-50%, -50%); 
+}
+.client-item4 img{
+    height: 116px;
+    width: auto;
+    position: absolute;
+    top: 163%;
+    right: 281px;
+    transform: translate(-50%, -50%);  
+}
+.client-item5 img{
+    height: 122px;
+    width: auto;
+    position: absolute;
+    top: 162%;
+    right: 142px;
+    transform: translate(-50%, -50%);  
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url('../eat-2834549_640.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 41%;
+    z-index: -1;
+    opacity: 0.5;
+}
+/* Contact Section */
+#contact{
+position: relative;
+}
+#contact::before{
+content: "";
+position: absolute;
+width: 100%;
+height: 107%;
+z-index: -1;
+opacity: 0.4;
+background: url('../contact-us-2993000_640.jpg') no-repeat center center/cover;
+margin: -50px 10px;
+}
+
+footer{
+    background: black;
+    color: white;
+    padding: 3px 20px;
+    margin: -18px;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box label{
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.con{
+    width: auto;
+    position: absolute;
+    top: -50px;
+    right: 592px;
+    transform: translate(-50%, -50%); 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+}
+hr{
+    /* margin: 10px; */
+    position: relative;
+    top: 10%;
+    /* right: 281px; */
+    transform: translate(-50%, -50%);  
+}
+html{
+    scroll-behavior: smooth;
+}

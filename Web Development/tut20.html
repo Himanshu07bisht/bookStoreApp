@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        
+        body{
+            background-color: blue;
+        }
+
+          .container{
+            background-image: url();
+            background-color: aquamarine;
+            border: 4px solid purple;
+            /* padding: 50px; */
+            /* We can set padding for top,bottom,left and right like this */
+            /* padding-top: 79px; */
+            /* padding-right: 45px; */
+            /* if we set padding top,right,bottom,left in one line then we have a syntax which is */
+            /* padding: 23px 56px 76px 90px;   padding/margin= top right bottom left; */
+            /* Similarly for margin */
+            /* margin: 20px; */
+            /* padding: y(top/bottom) x(left/right); */
+            padding: 60px 50px;
+            margin: 20px 40px;
+            border-radius: 23px;
+            width: 433px;
+            /* it is property in which width of the size is not change */
+            box-sizing: border-box;
+            
+          }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>Ths is my heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ipsum nisi pariatur a, odit sed rem
+            totam quisquam voluptas placeat aliquid molestiae nesciunt.</p>
+    </div>
+
+    <div class="container">
+        <h3>Ths is my heading</h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ipsum nisi pariatur a, odit sed rem
+            totam quisquam voluptas placeat aliquid molestiae nesciunt.</p>
+    </div>
+
+    <div class="container">
+        <h3>Ths is my heading</h3>
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ipsum nisi pariatur a, odit sed rem
+            totam quisquam voluptas placeat aliquid molestiae nesciunt.</p>
+    </div>
+</body>
+
+</html>

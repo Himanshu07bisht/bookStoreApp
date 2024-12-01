@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <style>
+    .container{
+        background-color: lightgray;
+        width: 80%
+        /* height: 700px; */
+        margin: 70px 0 0 50px;
+        
+
+        display: grid;
+        grid-template-columns:(auto-fit, minmax(150px,1fr));
+        grid-template-rows: repeat(2,100px); 
+        /* grid-gap: 15px; */
+        grid-auto-rows: 50px;
+        /* grid-template-columns: fit-content(200px) 1fr; */
+
+
+        /* align-items: start; */
+        /* justify-items: start; */
+        /* place-items: end center; */
+        /* justify-content: space-evenly;
+        align-content: space-evenly;
+        grid-auto-flow: row dense ; */
+
+    }
+    .items1{
+        background-color: orangered;
+    }
+    .items2{
+        background-color: yellowgreen;
+    }
+    .items3{
+        background-color: burlywood;
+        /* grid-row: span 3; */
+        /* align-self: center;
+        justify-self: center; */
+        /* place-self: start end; */
+        
+    }
+    .items4{
+        background-color: pink;
+        grid-column-end: -1;
+    }
+    .items5{
+        background-color: rgb(135, 174, 222);
+    }
+    .items6{
+        background-color: orangered;
+        /* grid-column:  span 2; */
+    }
+    .items7{
+        background-color: rgb(200, 255, 0);
+        /* grid-column: span 2; */
+    }
+    .items8{
+        background-color: goldenrod;
+    }
+    
+    </style>
+</head>
+<body>
+    <h1>CSS Grid</h1>
+    <div class="container">
+        <div class="items items1">First</div> 
+        <div class="items items2">Second</div>
+        <div class="items items3">Third</div>
+        <div class="items items4">Fourth</div>
+        <div class="items items5">Fifth</div>
+        <div class="items items6">Six</div>
+        <!-- <div class="items items7">Seven</div>
+        <div class="items items8">Eight</div>
+    </div>
+</body>
+</html>

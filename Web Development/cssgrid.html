@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRACTISE</title>
+    <style>
+        .container{
+            width: 550px;
+            height: 600px;
+            background-color: lightgray;
+            margin: 50px auto 0;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            /* grid-template-rows: 120px 60px 100px 400px 50px; */
+grid-template-rows: 120px 60px 50px;
+            grid-gap: 10px;
+            grid-auto-rows: 80px;
+
+        }
+        .items1{
+            background-color: orangered;
+            grid-column: 1 / -1;
+        }
+        .items2{
+            background-color: greenyellow;
+            grid-column: 1 / -1;
+        }
+        .items3{
+            background-color: purple;
+        }
+        .items4{
+            background-color: pink;
+        }
+        .items5{
+            background-color: blue;order: 5;
+            grid-row: 3 / span 4;
+            grid-column: 3 / 4;
+        }
+        .items6{
+            background-color: green;order: 6;
+            grid-column: 1 / span 2;
+            grid-row: 4 / 7;
+        }
+        .items7{
+            background-color: brown;
+            grid-column: 1 / -1;
+            grid-row: 7 / 8;
+            align-items: end;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items items1">Header</div>
+        <div class="items items2">Menu</div>
+        <div class="items items3">Box 1</div>
+        <div class="items items4">Box 2</div>
+        <div class="items items5">Sidebar</div>
+        <div class="items items6">content</div>
+        <div class="items items7">Footer</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object</title>
+    <script>
+        var a={
+            fname : 'Himanshu',
+            lname : "Bisht",
+            age : 19,
+            email : "himanshusinghbisht@gmail.com",
+            favmovies : ['Dhoom', 'hum', 'Sholay'],
+            b : {
+                city : 'Dehradun',
+                country : 'India'
+            },
+            salary : function(){
+                return 25000;
+            },
+            fullname : function(){
+                return this.fname + " " + this.lname;
+            }
+
+        }
+        console.log(a);
+        console.log(a.fname);
+        //document.write(a.favmovies[0]); 
+        //document.write(a.salary());
+
+        //document.write(a.fullname());
+        console.log(a.fullname());
+        document.write(a.b.city);
+    </script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,43 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.bg-cover {
+    background-size: cover;
+}
+.bg-gradient {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+nav {
+    position: absolute; /* Position it above the image */
+    top: 0;
+    width: 100%; /* Ensure it spans the full width */
+    z-index: 10; /* Ensure it appears above other elements */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background */
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+header {
+    position: relative;
+    height: 96vh;
+    background-image: url('macbook_mouse.jpg');
+    background-position: center;
+    background-size: cover;
+}

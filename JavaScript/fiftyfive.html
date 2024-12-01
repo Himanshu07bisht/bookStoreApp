@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Map()</title>
+    <script>
+       /* var a=[10,2,3,4];
+        var b= a.map(learn);
+        document.write(b);
+        function learn(x)
+        {
+            return x * 10;
+        }*/
+        var b=[
+            {name : 'Himanshu' , name2 : 'Bisht'},
+            {name : 'Sushma' , name2 : 'Bisht'},
+            {name : 'Santoshi' , name2 : 'Bisht'}
+        ];
+        var fname= b.map(names);
+        document.write(fname);
+        function names(x){
+            return x.name + " " + x.name2;
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

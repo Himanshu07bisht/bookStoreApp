@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute and nth child pseudo selectors</title>
+    <style>
+        .container{
+            display: block;
+            width: 233px;
+            margin: auto;
+        }
+        input{
+            display: block;
+        }
+        input[type="password"]{
+            padding: 23px;
+            border: 2px solid red;
+        }
+        a[target]{
+            font-size: 44px;
+            color: olivedrab;
+        }
+        input[type="email"]{
+            color: bisque;
+            background-color: brown;
+        }
+/* This will apply CSS for third child only */
+       /* li:nth-child(3){
+        color: rgb(255, 0, 255);
+       }
+       li:nth-child(2n+0){
+        color: rgb(237, 241, 0);
+       } */
+       /* li:nth-child(3n+3){
+        color: rgb(237, 241, 0);
+       } */
+
+       /* odd child */
+       /* li:nth-child(odd){
+        background-color: yellow;
+       } */
+       /* Even child */
+       li:nth-child(Even){
+        background-color: rgb(16, 152, 255);
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><a href="http://google.com" target="_blank">Go to google</a></h1>
+        <form action="" class="form-control">
+            <input type="text" placeholder="Enter your name">
+            <input type="email" placeholder="Enter your email">
+            <input type="password" placeholder="Enter your password">
+            <input type="submit" value="Submit">
+        </form>
+        <ul>
+         <li class="item" id="item1">Item1</li>
+         <li class="item" id="item2">Item2</li>
+         <li class="item" id="item3">Item3</li>
+         <li class="item" id="item4">Item4</li>
+         <li class="item" id="item5">Item5</li>
+        </ul>
+    </div>
+</body>
+</html>

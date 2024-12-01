@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pseudo selector and more designing </title>
+    <style>
+           .container{
+            border: solid 4px royalblue;
+            background-color: aquamarine;
+            margin: 30px auto;
+            padding: 30px;
+            width: 666px;
+
+           }
+           a{
+            /* See there was a line present under the read button so we use a tag that is text decoration=none */
+            text-decoration: none;
+           }
+           .btn{
+            background-color: rgb(220, 40, 244);
+            padding: 6px;
+            border: none;
+            /* We use a taag which is cursor tag and it is used to point out a cursor if we set cursor tag=pointer */
+            cursor: pointer;
+            font-size: 13px;
+            border-radius: 4px;
+
+           }
+           /* These are Pseudo selector */
+           a:hover{
+            color: yellow;
+            background-color: green;
+            font-size: 30px;
+           }
+           a:visited{
+            color: brown;
+
+           }
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3> This is my heading </h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quos praesentium eaque assumenda! Ad vitae blanditiis eaque dolor repudiandae dolore non dignissimos, odio commodi, voluptatum mollitia, facilis molestias velit. Similique sed omnis repudiandae officia.</p>
+        <a href="https://google.com"class="btn">Read more</a>
+        <button class="btn">Contact us</button>
+    </div>
+</body>
+</html>

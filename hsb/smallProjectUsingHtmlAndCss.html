@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            /* display: flex; */
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* This ensures the body takes the full height of the viewport */
+            margin: 5px;
+            background-color: white;
+            border: 2px solid black;
+        }
+        .circle {
+            height: 250px;
+            width: 250px;
+            border: 2px solid black;
+            /* background-color: aqua; */
+            transition-property: transform;
+            transition-duration: 10s;
+            background-image: url(images/akshat.jpg);
+            background-size: cover;
+            /* background-size: 10px 10px; */
+            background-position-y: 563px;
+            
+
+        }
+        .circle:hover{
+            transform: rotate(360deg) scale(2.0);
+        }
+        h3{
+            text-align: center;
+            /* margin: 0px auto; */
+        }
+        
+    </style>
+</head>
+<body>
+    <h3>Handsome Akshat</h3>
+    <div class="circle"></div>
+</body>
+</html>

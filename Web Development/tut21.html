@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        * {}
+
+
+        .container {
+            width: 900px;
+            border: 4px solid orangered;
+            /* If we set margin auto then it gives output in center */
+            /* margin: auto; */
+            margin: 33px auto;
+
+        }
+
+        .item {
+            border: 4px solid rgb(192, 28, 28);
+            margin: 15px 10px;
+            padding: 4px 10px;
+            background-color: #c2b5ba;
+        }
+
+        #fruit {
+            float: left;
+            width: 12px;
+        }
+
+        #computer {}
+
+        #stationary {}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="fruit" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitpara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi et adipisci
+                pariatur dicta doloremque quis nulla in, odio earum commodi corporis, consequuntur sit, blanditiis
+                magnam iure mollitia eos suscipit. Cumque.</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>Computer</h3>
+            <p id="computerpara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi et adipisci
+                pariatur dicta doloremque quis nulla in, odio earum commodi corporis, consequuntur sit, blanditiis
+                magnam iure mollitia eos suscipit. Cumque.</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>stationary</h3>
+            <p id="stationarypara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi et
+                adipisci pariatur dicta doloremque quis nulla in, odio earum commodi corporis, consequuntur sit,
+                blanditiis magnam iure mollitia eos suscipit. Cumque.</p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID</title>
+    <style>
+        .container {
+            background-color: lightgray;
+            width: 300px;
+            margin: 50px auto 0;
+            display: grid;
+
+            grid-template-columns: repeat(2, 150px);
+
+            grid-template-rows: repeat(2, 150px);
+            /* grid-gap: 10px; */
+
+        }
+.items{
+    max-width: 150px;
+}
+        .items1 {
+            background-color: orangered;
+            grid-column: 1 / span 2;
+            grid-row: 1 / span 2;
+            align-self: start;
+            z-index: 1;
+        }
+
+        .items2 {
+            background-color: yellowgreen;
+            grid-column: 1/span 2;
+            grid-row: 1/span 2;
+            align-self: center;
+            justify-self: center;
+            z-index: 3;
+        }
+
+        .items3 {
+            background-color: rgb(135, 209, 222);
+            grid-column: 1/span 2;
+            grid-row: 1/span 2;
+            align-self: end;
+            justify-self:end;
+            z-index: 4;
+        }
+
+        .items4 {
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CSS Grid</h1>
+    <div class="container">
+        <div class="items items1">First Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, laboriosam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, nesciunt.</div>
+        <div class="items items2">Second Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, repellat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, eaque.</div>
+        <div class="items items3">Third Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+        <!-- <div class="items items4">Fourth</div> -->
+</body>
+
+</html>

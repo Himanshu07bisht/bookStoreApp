@@ -1,0 +1,109 @@
+[
+    {
+        "id":1,
+        "name":"Story Book",
+        "title":"Sleeping Beauty",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-summer-reading-books-illustration-with-woman_52683-85653.jpg?ga=GA1.1.1514050320.1730608392&semt=ais_hybrid"
+    },
+    
+    {
+        "id":2,
+        "name":"Comedy Book",
+        "title":"The Idot",
+        "price":20,
+        "category":"Entainment",
+        "image":"https://hips.hearstapps.com/hmg-prod/images/elifbatumantheidiot-1611137199.jpg"
+    },
+
+    {
+        "id":3,
+        "name":"Sports Book",
+        "title":"Playing To Win",
+        "price":50,
+        "category":"Sports",
+        "image":"https://wp.scoopwhoop.com/wp-content/uploads/2017/12/5a1c0bb56e510a0620d4b14b_4671df25-124f-4ad1-9138-21907f9da49f.jpg"
+    },
+
+    {
+        "id":4,
+        "name":"Story Book",
+        "title":"The Lords Of The Rings",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/premium-photo/lord-rings-medaeval-generative-ai_905627-211.jpg?w=740"
+    },
+
+    {
+        "id":5,
+        "name":"Writer Book",
+        "title":"Harry Potter",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/premium-photo/hand-is-holding-book-titled-harry-potter_1143166-12543.jpg?w=740"
+    },
+
+    {
+        "id":6,
+        "name":"Champak",
+        "title":"Champak",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-summer-reading-books-illustration-with-woman_52683-85653.jpg?ga=GA1.1.1514050320.1730608392&semt=ais_hybrid"
+    },
+
+    {
+        "id":7,
+        "name":"Biography Book",
+        "title":"The Diary of a Young Girl",
+        "price":100,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-summer-reading-books-illustration-with-woman_52683-85653.jpg?ga=GA1.1.1514050320.1730608392&semt=ais_hybrid"
+    },
+
+    {
+        "id":8,
+        "name":"Horror",
+        "title":"The Hunger",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-summer-reading-books-illustration-with-woman_52683-85653.jpg?ga=GA1.1.1514050320.1730608392&semt=ais_hybrid"
+    },
+
+    {
+        "id":9,
+        "name":"Religious",
+        "title":"Bhagavad-Gita",
+        "price":0,
+        "category":"Free",
+        "image":"https://4.imimg.com/data4/VB/SR/MY-13994350/gita-religious-books-500x500.jpg"
+    },
+
+    {
+        "id":10,
+        "name":"Fiction Book",
+        "title":"To Kill A Mockingbird",
+        "price":200,
+        "category":"Fiction",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-summer-reading-books-illustration-with-woman_52683-85653.jpg?ga=GA1.1.1514050320.1730608392&semt=ais_hybrid"
+    },
+
+    {
+        "id":11,
+        "name":"Inspiration",
+        "title":"Stephen Hawking",
+        "price":100,
+        "category":"Real",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-summer-reading-books-illustration-with-woman_52683-85653.jpg?ga=GA1.1.1514050320.1730608392&semt=ais_hybrid"
+    },
+
+    {
+        "id":12,
+        "name":"Self-Help",
+        "title":"Atomic-Habits",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-summer-reading-books-illustration-with-woman_52683-85653.jpg?ga=GA1.1.1514050320.1730608392&semt=ais_hybrid"
+    }
+]

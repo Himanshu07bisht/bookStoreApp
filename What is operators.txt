@@ -1,0 +1,61 @@
+What is operators?
+Operators are those which perform some specific task.
+
+What is operand?
+Operand are those in which operators are used.
+
+How many types of Operators?
+There are 7 types of operators in python:-
+*Arithmetic Operator:-
+=> There are Seven types of Arithmetic Operator 
+.Modulus(%):- It gives remainder after dividing the two number.
+.Exponent(**):- It produce the power of a number.
+.Floor Division(//):- It remove the decimal place after dividing the two no.
+
+*Relational/Comparison Operator:-
+=> Relational operator is used to compare between two number. It gives true or false.
+  There are six types of operator
+*Greater than (>)
+*Greater than equal to (>=)
+*Less than (<)
+*Less than equal to (<=)
+*equal to (==)
+*Not equal to (<>)
+
+*Assignment Operator:-
+=> Assignment Operator is used to Assign the value of a variable.The value always assign from right to left.
+  There are six types of assignment operator
+* = :- c=a+b;
+*c+=b :- c=c+b;
+*c-=a :- c=c-a;
+*c*=a :- c=c*a;
+*c/=a :- c=c/a;
+* c%=a :- c=c%a;
+
+*Identity Operator:-
+ Identity Operator are used in Python to determine the class or type of a value. 
+type() function is used to in indentification.
+
+There are two types of indentity operator 
+.is:- It return true if both are in same object
+.is not :- if it not belong to the same object so it print true.
+
+*Membership Operator:-
+ There are two types of Membership Operator:
+.in :-If element is found then it return true.
+.not in :- if element is not found than it return true.
+
+*Bitwise Operator:-
+ Bitwise Operator are used to compare the binary number.
+ There are six types of Bitwese operator,
+Let x=0000 0110
+    y=0000 1000
+
+.&(AND)= x&y = 0000 0000
+.|(OR)= x|y  = 0000 1110
+.^(XOR)= x^y = 0000 1110 (XOR means to have only single "1" is present)
+.~(NOT)= x~y = 1111 1001 (it is also known as x complement)
+.<<(Zero fill left shift)= x<<1 = 0000 1100
+.>>(Signed right shift)= x>>1 = 0000 0011
+
+

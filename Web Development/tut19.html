@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height, width, border and img background</title>
+
+</head>
+
+    <style>
+        #firstpara {
+            background-color: red;
+            /* If we want to specify the height and width then we some tag */
+            height: 50px;
+            width: 500px;
+            /* Since if write border shortly then we write like this */
+            border: 4px solid pink;
+            /* border-width: 4px;
+            border-color: rgb(127, 133, 255);
+            border-style: solid; */
+            border-radius: 11px;
+        }
+
+        #secondpara {
+            background-color: rgba(132, 4, 244, 0.434);
+            /* If we want to specify the height and width then we some tag */
+            height: 50px;
+            width: 500px;
+            /* if we want the border are placed at one side... */
+            border-top: 4px solid yellow;
+            border-bottom: orange 4px solid;
+            border-right: 4px solid red;
+            border-left: 4px solid blue;
+            /* Now if you want that only the radius changes here, so you can make a combination like this */
+            border-top-left-radius: 4px;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 14px;
+            border-bottom-right-radius: 17px;
+        }
+
+        #thirdpara {
+            height: 100px;
+            width: 200px;
+            /* If we add background then we use a tag which is background-image */
+            /* if we copy url then we click write on mouse and click on copy address link  */
+            background-image: url(https://cdn.sharechat.com/alemushaideko_134539e2_1602656436918_sc_cmprsd_40.jpg);
+            border: 4px solid red;
+            background-repeat: no-repeat;  /*If we write repeat-x or repeat-y then it will make it repeat on x and y axis*/
+            /* background-position: 12px top; */
+            background-position: center center;
+            /* background-position: 5px 100px; */
+            /* background-position: top top; */
+            /* background-position: top center; */
+            /* background-position: top left */
+            /* background-position: top right; */
+            /* background-position: bottom left; */
+            /* background-position: bottom right; */
+        }
+        </style>
+        </body>
+        <h3>This is heading</h3>
+        <p id="firstpara">This is a paragraph</p>
+
+        <h3>This is heading</h3>
+        <p id="secondtpara">This is a paragraph</p>
+
+        <h3>This is heading</h3>
+        <p id="thirdpara">This is a paragraph</p>
+    </body>
+    </html>
